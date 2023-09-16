@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #d1bfbf;
+}
+
+h1 {
+    color: #333;
+}
+
+.formulario {
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #87e677;
+    text-align: center; /* Centra el contenido del formulario */
+}
+
+label, input, select, button {
+    display: block;
+    margin: 10px auto; /* Centra los elementos horizontalmente */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
